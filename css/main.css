@@ -1,1 +1,56 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  min-width: 320px;
+  background-color: aquamarine;
+}
+header .continer-header {
+  width: 100%;
+  min-width: 320px;
+  background-color: rgb(131, 140, 140);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+header .continer-header .container-button-burger button {
+  background-color: none;
+  border: none;
+}
+header .continer-header .container-button-burger button img {
+  width: 48px;
+  height: 48px;
+}
+header .continer-header .container-button-burger .lupa {
+  width: 40px;
+  height: 40px;
+}
+header .continer-header .conteiner-logos .logo-microsoft {
+  width: 116px;
+  height: 44px;
+}
+header .continer-header .conteiner-list-options {
+  display: none;
+}
+header .continer-header .conteiner-login-and-more .title-microsoft {
+  display: none;
+}
+header .continer-header .conteiner-login-and-more .car {
+  width: 48px;
+  height: 48px;
+}
+header .continer-header .conteiner-login-and-more .second-lupa {
+  display: none;
+}
+header .continer-header .conteiner-login-and-more .inicio-secion {
+  width: 48px;
+  height: 48px;
+}/*# sourceMappingURL=main.css.map */
