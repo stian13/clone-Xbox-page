@@ -11,12 +11,10 @@ html {
 header {
   width: 100%;
   min-width: 320px;
-  background-color: aquamarine;
 }
 header .continer-header {
   width: 100%;
   min-width: 320px;
-  background-color: rgb(131, 140, 140);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -53,4 +51,49 @@ header .continer-header .conteiner-login-and-more .second-lupa {
 header .continer-header .conteiner-login-and-more .inicio-secion {
   width: 48px;
   height: 48px;
+}
+header .section-slider {
+  width: 100%;
+  min-width: 320px;
+}
+header .section-slider .content-slider {
+  width: auto;
+  background-color: #0d0d0d;
+}
+header .section-slider .content-slider .content-img {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(to bottom, transparent 40%, #0d0d0d 98%), url("/assets/img/slider-diablo.jpg");
+  background-size: cover;
+  background-position-x: 25%;
+  background-repeat: no-repeat;
+}
+header .section-slider .content-slider .content-text-img {
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+header .section-slider .content-slider .content-text-img .title-amarillo {
+  width: 140px;
+  background-color: #ffd800;
+  padding: 0 4px;
+}
+header .section-slider .content-slider .content-text-img h3 {
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+}
+header .section-slider .content-slider .content-text-img .description-img-slider {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 10px;
+}
+header .section-slider .content-slider .content-text-img .enlace-conseguir {
+  text-decoration: none;
+  color: #054b16;
+  background-color: #9bf00b;
+  font-weight: bold;
+  padding: 5px 20px;
 }/*# sourceMappingURL=main.css.map */
