@@ -20,20 +20,21 @@ header .continer-header {
   justify-content: space-around;
 }
 header .continer-header .container-button-burger button {
-  background-color: none;
+  background-color: transparent;
   border: none;
 }
 header .continer-header .container-button-burger button img {
-  width: 48px;
-  height: 48px;
+  width: 28px;
+  height: 28px;
 }
 header .continer-header .container-button-burger .lupa {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
 }
 header .continer-header .conteiner-logos .logo-microsoft {
+  margin-top: 10px;
   width: 116px;
-  height: 44px;
 }
 header .continer-header .conteiner-list-options {
   display: none;
@@ -42,15 +43,19 @@ header .continer-header .conteiner-login-and-more .title-microsoft {
   display: none;
 }
 header .continer-header .conteiner-login-and-more .car {
-  width: 48px;
-  height: 48px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 header .continer-header .conteiner-login-and-more .second-lupa {
   display: none;
+  width: 36px;
+  height: 36px;
 }
 header .continer-header .conteiner-login-and-more .inicio-secion {
-  width: 48px;
-  height: 48px;
+  width: 28px;
+  height: 28px;
+  margin-top: 8px;
 }
 header .section-slider {
   width: 100%;
