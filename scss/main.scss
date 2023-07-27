@@ -110,3 +110,28 @@ header{
         }
     }
 }
+
+main{
+    .content-img-octions{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        .img-and-description{
+            width: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 54px;
+                height: 42px;
+            }
+            p{
+                color: #107c10;
+                font-weight: 600;
+            }
+        }
+    }
+    
+}

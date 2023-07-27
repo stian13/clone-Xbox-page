@@ -101,4 +101,26 @@ header .section-slider .content-slider .content-text-img .enlace-conseguir {
   background-color: #9bf00b;
   font-weight: bold;
   padding: 5px 20px;
+}
+
+main .content-img-octions {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+main .content-img-octions .img-and-description {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .content-img-octions .img-and-description img {
+  width: 54px;
+  height: 42px;
+}
+main .content-img-octions .img-and-description p {
+  color: #107c10;
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */
