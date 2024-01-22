@@ -73,17 +73,17 @@ header .section-slider .content-slider .content-img {
   background-position-x: 25%;
   background-repeat: no-repeat;
 }
+header .section-slider .content-slider .title-amarillo {
+  width: 140px;
+  background-color: #ffd800;
+  padding: 0 4px;
+}
 header .section-slider .content-slider .content-text-img {
   bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 30px;
-}
-header .section-slider .content-slider .content-text-img .title-amarillo {
-  width: 140px;
-  background-color: #ffd800;
-  padding: 0 4px;
 }
 header .section-slider .content-slider .content-text-img h3 {
   text-align: center;
@@ -123,4 +123,61 @@ main .content-img-octions .img-and-description img {
 main .content-img-octions .img-and-description p {
   color: #107c10;
   font-weight: 600;
+}
+main .section-grilla-products {
+  display: grid;
+  margin: 50px 10px 0 10px;
+}
+main .section-grilla-products .cards-games {
+  position: relative;
+}
+main .section-grilla-products .cards-games img {
+  width: 100%;
+  min-width: 300px;
+  height: auto;
+}
+main .section-grilla-products .cards-games .notas-product {
+  position: relative;
+  bottom: 1%;
+  width: 100%;
+  background-color: #107c10;
+  padding: 15px;
+}
+main .section-grilla-products .cards-games .notas-product .title-amarillo {
+  display: inline-block;
+  background-color: #ffd800;
+  font-weight: 400;
+  font-size: 14px;
+  color: #0d0d0d;
+  padding: 0 8px;
+}
+main .section-grilla-products .cards-games .notas-product h3 {
+  font-size: 26px;
+  color: #fff;
+  padding: 3% 0;
+}
+main .section-grilla-products .cards-games .notas-product p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+main .section-grilla-products .cards-games .notas-product a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 900;
+  color: #fff;
+  display: block;
+  margin: 4% 0;
+}
+main .section-grilla-products .cards-games .notas-product.bottomless {
+  background-color: #333;
+}
+main .section-grilla-products .cards-games .notas-product.sin-fondo {
+  background-color: #fff;
+}
+main .section-grilla-products .cards-games .notas-product.sin-fondo h3, main .section-grilla-products .cards-games .notas-product.sin-fondo p, main .section-grilla-products .cards-games .notas-product.sin-fondo a {
+  color: #0d0d0d;
+}
+main .section-grilla-products .cards-games.partes {
+  height: 70%;
 }/*# sourceMappingURL=main.css.map */
